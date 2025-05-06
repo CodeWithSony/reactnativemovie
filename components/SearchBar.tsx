@@ -8,6 +8,7 @@ interface Props {
 }
 export default function SearchBar({ placeholder, onPress }: Props) {
   return (
+    // searcbar component
     <View className="flex-row items-center bg-dark-200 rounded-full px-5 py-4">
       <Image
         source={icons.search}
